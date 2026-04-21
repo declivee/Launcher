@@ -1,0 +1,20 @@
+*
+*/
+
+# Manter controle dos arquivos/pastas permitidos
+!.gitignore
+!data/
+!data/**
+!README.md
+!readme.md
+!launcher.py
+!version.txt
+!versionGenerate.py
+
+# Ignorados explicitamente (ja cobertos pelo bloqueio global)
+client/
+launcher.build/
+launcher.dist/
+launcher.onefile-build/
+venv/
+launcher.exe
